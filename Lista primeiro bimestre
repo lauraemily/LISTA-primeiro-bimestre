@@ -6,3 +6,15 @@ namespace myApp
  int prod = A*B;
  Console.WriteLine($"PROD = {prod}");
 }}}
+
+
+using System;
+namespace myApp
+{ class Program { static void Main(string[] args) {
+double A = double.Parse(Console.ReadLine());
+double B = double.Parse(Console.ReadLine());
+double soma = (A*3.5)+(B*7.5);
+double media = soma/11;
+Console.WriteLine($"MEDIA = {media:0.00000}");
+
+} }}
