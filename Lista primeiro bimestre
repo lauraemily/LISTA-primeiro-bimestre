@@ -65,3 +65,17 @@ class MainClass {
     }
   }
 }
+using System;
+
+class MainClass {
+  public static void Main (string[] args) {
+    int a = 1;
+    int x = 1;
+    while (a <= 46){
+      Console.WriteLine($"{a}");
+      a = a + x;
+      x = x + 1;
+    }
+  }
+}
+
