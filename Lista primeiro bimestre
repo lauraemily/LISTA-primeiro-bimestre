@@ -18,3 +18,19 @@ double media = soma/11;
 Console.WriteLine($"MEDIA = {media:0.00000}");
 
 } }}
+
+using System;
+
+class MainClass {
+  public static void Main (string[] args) {
+    
+int x =
+1
+;
+
+while (x <= 10) {
+Console.WriteLine(x);
+x++;}
+
+    }
+}  
