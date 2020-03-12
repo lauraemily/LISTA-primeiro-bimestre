@@ -34,3 +34,17 @@ x++;}
 
     }
 }  
+
+
+using System;
+
+class MainClass {
+  public static void Main (string[] args) {
+    int x = 10;
+    while ( x <= 10 && x > 0){
+      Console.WriteLine(x);
+      x = x - 1;
+    }
+  }
+}
+
